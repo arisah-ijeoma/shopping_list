@@ -8,7 +8,7 @@ $(document).ready(function() {
 				$('div#alert').fadeIn('slow').append(response).fadeOut(1000);
 		}
 			else {
-				$('ul.check').append('<input type= "checkbox" name= "checkbox" class= "checkbox">' + itemAdd + "<br>")
+				$('ul.check').append('<input type= "checkbox" name= "checkbox" class= "checkbox">' + itemAdd  + "<br>")
 				$('input#intro').val('');
 			}
  	});
