@@ -1,0 +1,58 @@
+body {
+	background-color: #ffffcc;
+	color: brown;
+}
+
+h1 {
+	padding-top: 20px;
+	background-color: brown;
+	color: #ffffcc;
+	font-size: 5em;
+	text-align: center;
+	font-family: 'segoe script', 'segoe print', cursive;
+	margin: 0;
+}
+
+div#alert {
+	display: block;
+	background-color: brown;
+	color: #ffffcc;
+	border: 1px solid #ffffcc;
+	float: right;
+	width: 25%;
+	text-align: center;
+}
+
+section {
+	margin: 40px;
+}
+
+input#intro {
+	display: block;
+	border-radius: 0;
+}
+
+ul.check {
+	padding-top: 5px;
+}
+
+h3.label {
+	background-color: brown;
+	color: #ffffcc;
+	font-size: 3em;
+	text-align: center;
+	width: 30%;
+	margin-top: 20px;
+}
+
+input {
+	color: #ffffcc;
+	background-color: brown;
+	border: none;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+h3.space {
+	padding-top: 40px;
+}

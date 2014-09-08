@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shop Right!</title>
+		<meta charset= "utf-8">
+		<link rel= "stylesheet" type= "text/css" href= "css/reset.css">
+		<link rel= "stylesheet" type= "text/css" href= "css/main.css">
+		<script src= "scripts/jquery.js"></script>
+		<script src= "scripts/jqueryui.js"></script>
+		<script src= "scripts/jquerysortable.js"></script>
+		<script src= "scripts/jsfiles.js"></script>
+	</head>
+		<body>
+			<h1>Shop Right!</h1>
+				<div id= "alert"></div>
+			<section>
+				<form action= "#" method= "post" id= "shoplist">
+					<label for= "intro">Please type in your shopping list</label><br><br>
+					<input type= "text" id= "intro" name= "name" size= "50">
+					<input type= "submit" id= "add" value= "Add to Cart">
+				</form>
+				<div class= "list">
+					<h3 class= "label">Your List</h3>
+					<ul class= "check">
+					</ul>
+				</div>
+				<div class= "unlist">
+					<h3 class= "space">You can delete items from your list by checking the item and clicking the button below</h3>
+					<input type = "submit" id= "delete" value= "Delete from List">
+				</div>
+		</section>
+		</body>
+</html>
