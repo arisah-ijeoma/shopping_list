@@ -1,24 +1,33 @@
 body {
-	background-color: #ffffcc;
-	color: brown;
+	color: rgb(0, 0, 150);
+	background-image: url('../bgimage.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 h1 {
-	padding-top: 20px;
-	background-color: brown;
-	color: #ffffcc;
-	font-size: 5em;
-	text-align: center;
+	margin: 40px;
+	color: white;
+	font-size: 6em;
+	background-color: #0000aa;
+	width: 50%;
+	opacity: 0.5;
 	font-family: 'segoe script', 'segoe print', cursive;
-	margin: 0;
+	cursor: default;
+}
+
+h1:hover {
+
 }
 
 div#alert {
-	display: block;
-	background-color: brown;
-	color: #ffffcc;
-	border: 1px solid #ffffcc;
-	float: right;
+	display: inline-block;
+	background-color: #0000aa;
+	opacity: 0.5;
+	color: white;
+	position: absolute;
+	left: 35%;
+	top: 35%;
 	width: 25%;
 	text-align: center;
 }
@@ -30,15 +39,21 @@ section {
 input#intro {
 	display: block;
 	border-radius: 0;
+	border: 1px solid #0000aa;
+	background-color: #ffffdd;
+	outline-style: none;
 }
 
 ul.check {
-	padding-top: 5px;
+	background-color: #aaaaaa;
+	color: #0000aa;
+	width: 30%;
 }
 
 h3.label {
-	background-color: brown;
-	color: #ffffcc;
+	background-color: #0000aa;
+	color: white;
+	opacity: 0.5;
 	font-size: 3em;
 	text-align: center;
 	width: 30%;
@@ -46,8 +61,8 @@ h3.label {
 }
 
 input {
-	color: #ffffcc;
-	background-color: brown;
+	color: #0000aa;
+	background-color: #aaaaaa;
 	border: none;
 	padding: 5px;
 	border-radius: 10px;
