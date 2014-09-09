@@ -1,0 +1,58 @@
+@media screen and (max-width: 1235px) {
+	
+	h1 {
+		font-size: 5em;
+		width: 65%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		background-color: #5555ee;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	body {
+		color: rgb(0, 0, 150);
+		background-image: url('../bgimage.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 93%;
+	}
+
+	input#intro {
+		width: 50%
+	}
+
+	h3.label {
+		font-size: 2em;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	body {
+		background-size: 100% 45%;
+		background-position: top right;
+	}
+
+	h1 {
+		font-size: 2em;
+		width: 50%;
+	}
+
+	h3.label {
+		font-size: 1.5em;
+	}
+
+	h3.space {
+		width: 100%;
+	}
+
+	section {
+		padding-top: 200px;
+	}
+}
