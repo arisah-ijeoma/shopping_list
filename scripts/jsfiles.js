@@ -3,7 +3,7 @@ var shopper = {
 	addToList: function(event) {
 		event.preventDefault();
 		itemAdd = $('#intro').val();
-		if (itemAdd === "undefined" || itemAdd === " " || itemAdd.length < 3 || !isNaN(itemAdd)) {
+		if (itemAdd.length < 3 || !isNaN(itemAdd)) {
 			$('div#alert').fadeIn('slow').text('Please type in a valid input').fadeOut(2000);
 		} 
 		else {
